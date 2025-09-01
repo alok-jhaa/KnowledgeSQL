@@ -1,2 +1,14 @@
+# --- Force SQL detection ---
 *.sql linguist-detectable=true
 *.sql linguist-language=SQL
+
+# --- Reduce Jupyter Notebooks impact ---
+*.ipynb linguist-detectable=false
+
+# --- Ignore data files (don’t count towards language stats) ---
+*.csv linguist-detectable=false
+*.json linguist-detectable=false
+*.xlsx linguist-detectable=false
+
+# --- Keep Python visible ---
+*.py linguist-detectable=true
